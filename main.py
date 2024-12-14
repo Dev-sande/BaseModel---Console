@@ -211,7 +211,6 @@ class HBNBCommand(cmd.Cmd):
 storage = FileStorage()
 storage.reload()
 
-
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
 
